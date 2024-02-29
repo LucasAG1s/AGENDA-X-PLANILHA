@@ -8,21 +8,7 @@ function importareventos() {
   var calendarios = CalendarApp.getAllCalendars();
   
   const whiteList = [
-    { email: "lucas.aguilar@wakke.co", id: 1 },
-    { email: "marcelo.mattos@wakke.co", id: 2 },
-    { email: "ana.rodrigues@wakke.co", id: 3 },
-    { email: "caua.nicolau@wakke.co", id: 4 },
-    { email: "ingrid.oliveira@wakke.co", id: 5 },
-    { email: "vinicius.souza@wakke.co", id: 6 },
-    { email: "vinicius.santiago@wakke.co", id: 7 },
-    { email: "rodrigo.nunes@wakke.co", id: 8 },
-    { email: "julia.lima@wakke.co", id: 9 },
-    { email: "mariana.sartori@wakke.co", id: 10 },
-    { email: "mariana.faustino@wakke.co", id: 11 },
-    { email: "kethely.leal@wakke.co", id: 12 },
-    { email: "maria.algislen@wakke.co", id: 13 },
-    { email: "gabriel.conceicao@wakke.co", id: 14 }
-  ];
+    { email: "lucas.aguilar@wakke.co", id: 1 }];
 
   
 const excluders = ["off","Horário de Café","DENTISTA", "SAÍDA DENTISTA", "Compromisso - Escola Alice", "Out of office", "almoço", "saida", "saída", "[off]", "ficar on no chat", "ficar off no chat","horário do café","horário de café" ,"café","Café"];
